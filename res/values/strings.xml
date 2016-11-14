@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyHomeLauncher</string>
+    <string name="action_settings">设置</string>
+    <string name="applist">应用列表</string>
+    <string name="hello_world">电量不足，请充电！</string>
+    <string name="edit">编辑联系人</string>
+    <string name="add">添加联系人</string>
+    <string name="call">给联系人打电话</string>
+    <string name="cancle">取消</string>
+    <string name="sure">确定</string>
+    <string name="name">姓名</string>
+    <string name="number">号码</string>
+    <string name="group">分组</string>
+    <string name="position">位置</string>
+    <string name="title_activity_dialogactivity_main">MainActivity</string>
+    <string name="title_activity_edit">EditActivity</string>
+
+</resources>

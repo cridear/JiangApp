@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEE7CE"    
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".EditActivity" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView 
+                style="@style/dtxt"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/name"/>
+            <EditText     
+                style="@style/dtxt"
+                android:id="@+id/name2"           
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                                android:textColor="@android:color/background_dark"
+                android:text="@string/hello_world"/>
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                style="@style/dtxt"
+                android:textColor="@android:color/background_dark"
+                android:phoneNumber="true" 
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/number"/>
+            <EditText 
+                style="@style/dtxt"
+                android:textColor="@android:color/background_dark"
+                android:id="@+id/number2"           
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"                
+                android:text="@string/hello_world"/>
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" >
+            <TextView
+                style="@style/dtxt"
+                android:layout_gravity="center_vertical"
+                android:textColor="@android:color/background_dark"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/group"/>
+            <Spinner 
+                android:layout_gravity="center_vertical"
+                android:id="@+id/group"
+                
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:text="@string/hello_world"/>
+        </LinearLayout>
+         <LinearLayout
+             
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <TextView
+                android:textColor="@android:color/background_dark"
+                android:layout_width="80dp"
+                style="@style/dtxt"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:text="@string/position"/>
+            <Spinner 
+                android:id="@+id/rank"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:text="@string/hello_world"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button 
+                android:id="@+id/sure"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/sure"
+                    android:background="#BEE7CE"
+                
+                android:textColor="@android:color/background_dark"
+                />
+            <View 
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                />
+            <Button 
+                android:id="@+id/cancle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/cancle"
+                    android:background="#BEE7CE"
+                android:textColor="@android:color/background_dark"
+                />
+            
+            
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+    
+
+</RelativeLayout>

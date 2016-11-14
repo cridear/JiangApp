@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"    
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    
+
+    
+    
+    <RelativeLayout 
+        android:id="@+id/rl"
+        android:paddingLeft="15dp"
+        android:background="#FF8C84"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+
+                 
+
+                  <ImageView
+                      android:id="@+id/voice"
+                      android:padding="5dp"
+                      
+                      android:layout_width="70dp"
+                      android:layout_height="match_parent"
+                      android:layout_alignParentRight="true"
+                      android:layout_alignParentTop="true"
+                      android:src="@drawable/avolume" />
+                  <LinearLayout 
+                      android:layout_toLeftOf="@id/voice"
+                      android:layout_width="match_parent"
+                 android:layout_height="match_parent"
+                 android:layout_centerInParent="true"
+                 android:gravity="center_vertical"
+                 android:orientation="vertical">
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                 android:id="@+id/name" 
+                 android:gravity="center|left"
+                 android:textSize="25sp"
+                 android:singleLine="true"
+                 android:ellipsize="end"
+                 android:textColor="@android:color/background_dark"
+                 android:text="黄晓莲"/>
+                   <TextView
+                       
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                 android:id="@+id/number" 
+                 android:gravity="center|left"
+                 android:textSize="25sp"
+                 android:textColor="@android:color/background_dark"
+                 android:singleLine="true"
+                 android:ellipsize="end"
+                 android:text="150667688566"/>
+                   </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>
