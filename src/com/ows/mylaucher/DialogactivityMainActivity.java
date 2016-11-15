@@ -23,7 +23,7 @@ import android.widget.Toast;
 
 public class DialogactivityMainActivity extends Activity implements OnClickListener {
 	private Button add;
-	private Button edit;
+	private Button free;
 	private Button call;
 	private Button cancle;
 	
@@ -42,11 +42,11 @@ public class DialogactivityMainActivity extends Activity implements OnClickListe
 		lp.y = 150;  
 	    getWindow().setAttributes(lp);
 	    add =(Button) findViewById(R.id.add);
-	    edit = (Button) findViewById(R.id.edit);
+	    free = (Button) findViewById(R.id.free);
 	    call = (Button) findViewById(R.id.call);
 	    cancle = (Button) findViewById(R.id.cancle);
 	    add.setOnClickListener(this);
-	    edit.setOnClickListener(this);
+	    free.setOnClickListener(this);
 	    call.setOnClickListener(this);
 	    cancle.setOnClickListener(this);
 	    Intent intent = getIntent(); 
@@ -84,11 +84,12 @@ public class DialogactivityMainActivity extends Activity implements OnClickListe
 			startActivity(new Intent(this,AddActivity.class));
 			finish();
 			break;
-		case R.id.edit:
-			Intent intent = new Intent(this,EditActivity.class);			
+		case R.id.free:
+			startActivity(new Intent(Intent.ACTION_DIAL,Uri.parse("tel:"+number)));
+			/*Intent intent = new Intent(this,EditActivity.class);			
 			intent.putExtra("position", position);
 			Log.e("myhome", "~~~~~~~~~~~");
-			startActivity(intent);
+			startActivity(intent);*/
 			finish();
 			break;
 			

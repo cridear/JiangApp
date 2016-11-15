@@ -32,7 +32,7 @@ public final class R {
         public static final int cancle=0x7f080006;
         public static final int digitalClock1=0x7f080009;
         public static final int digitalClockDate=0x7f080008;
-        public static final int edit=0x7f080017;
+        public static final int free=0x7f080017;
         public static final int group=0x7f080003;
         public static final int hori=0x7f08001a;
         public static final int img=0x7f080013;
@@ -77,17 +77,18 @@ public final class R {
         public static final int add=0x7f050005;
         public static final int app_name=0x7f050000;
         public static final int applist=0x7f050002;
-        public static final int call=0x7f050006;
-        public static final int cancle=0x7f050007;
+        public static final int call=0x7f050007;
+        public static final int cancle=0x7f050008;
         public static final int edit=0x7f050004;
-        public static final int group=0x7f05000b;
+        public static final int free=0x7f050006;
+        public static final int group=0x7f05000c;
         public static final int hello_world=0x7f050003;
-        public static final int name=0x7f050009;
-        public static final int number=0x7f05000a;
-        public static final int position=0x7f05000c;
-        public static final int sure=0x7f050008;
-        public static final int title_activity_dialogactivity_main=0x7f05000d;
-        public static final int title_activity_edit=0x7f05000e;
+        public static final int name=0x7f05000a;
+        public static final int number=0x7f05000b;
+        public static final int position=0x7f05000d;
+        public static final int sure=0x7f050009;
+        public static final int title_activity_dialogactivity_main=0x7f05000e;
+        public static final int title_activity_edit=0x7f05000f;
     }
     public static final class style {
         /** 

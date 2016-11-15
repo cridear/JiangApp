@@ -7,6 +7,7 @@
     <string name="hello_world">电量不足，请充电！</string>
     <string name="edit">编辑联系人</string>
     <string name="add">添加联系人</string>
+    <string name="free">免费电话</string>
     <string name="call">给联系人打电话</string>
     <string name="cancle">取消</string>
     <string name="sure">确定</string>

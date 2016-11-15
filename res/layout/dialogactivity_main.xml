@@ -21,14 +21,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/add"
+            android:visibility="gone"
              />
 
         <Button
             style="@style/dtxt"
-            android:id="@+id/edit"
+            android:id="@+id/free"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/edit" />
+            android:text="@string/free" />
     </LinearLayout>
 
     <LinearLayout
